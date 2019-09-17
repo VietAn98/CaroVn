@@ -424,7 +424,7 @@ class Board extends React.Component {
               }
             });
           }
-
+          break;
         case "O":
           if (
             squares[i + 1] === "O" &&
